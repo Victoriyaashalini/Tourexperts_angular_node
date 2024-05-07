@@ -1,0 +1,65 @@
+<nav class="navbar navbar-expand-lg navbar-light sticky-top">
+    <div class="container-fluid">
+        
+        <a class="navbar-brand ms-3" href="#">Tour experts</a>
+
+       
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar" >
+            <img src="../../../assets/images/navbarmen.png" alt="Menu">
+        </button>
+
+       
+        <div class="offcanvas offcanvas-start"  data-bs-scroll="true" tabindex="-1" id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas Navbar</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                
+                <ul class="navbar-nav mx-auto"> 
+                    <li class="nav-item">
+                        <a class="nav-link " routerLink="/home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/company">Company</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/destination">Destination</a>
+                    </li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" routerLink="/package" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						  Packages
+						</a>
+						<ul class="dropdown-menu">
+						  <li><a class="dropdown-item" routerLink="/Asia">Asia</a></li>
+						  <li><a class="dropdown-item" routerLink="/india">India</a></li>
+						  <li><a class="dropdown-item" routerLink="/International">International</a></li>
+                          <li><a class="dropdown-item" routerLink="/honeymoon">Honeymoon</a></li>
+						  <li><a class="dropdown-item" routerLink="/island">Island</a></li>
+						  <li><a class="dropdown-item" routerLink="/wedding">Wedding</a></li>
+						  <li><a class="dropdown-item" routerLink="/familytour">Family Tour</a></li>
+						  <li><a class="dropdown-item" routerLink="/grouptour">Group Tour</a></li>
+
+
+						</ul>
+					  </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/populartour">Popular Tours</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/contact">Contact us</a>
+                    </li>
+                </ul>
+                <div class="d-flex justify-content-between contact-btn d-grid gap-2"> 
+					<button class="btn btn-primary contact-button" type="button"   >9677518806</button>				 </div>
+            </div>
+
+        </div>
+
+        
+
+    </div>
+</nav> 
