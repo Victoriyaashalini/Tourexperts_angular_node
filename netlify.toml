@@ -1,6 +1,0 @@
-[build]
-  base = "tourexpertsmean"
-  command = "ng build"
-  publish = "dist/tourexpertsmean"
-  functions = "tourexpertsmean/netlify/functions"
-  # Add any other build settings here
